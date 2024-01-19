@@ -1,0 +1,15 @@
+D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.Application\bin\Debug\net6.0\CleanArchMvc.Application.deps.json
+D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.Application\bin\Debug\net6.0\CleanArchMvc.Application.dll
+D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.Application\bin\Debug\net6.0\CleanArchMvc.Application.pdb
+D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.Application\bin\Debug\net6.0\CleanArchMvc.Domain.dll
+D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.Application\bin\Debug\net6.0\CleanArchMvc.Domain.pdb
+D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.Application\obj\Debug\net6.0\CleanArchMvc.Application.csproj.AssemblyReference.cache
+D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.Application\obj\Debug\net6.0\CleanArchMvc.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.Application\obj\Debug\net6.0\CleanArchMvc.Application.AssemblyInfoInputs.cache
+D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.Application\obj\Debug\net6.0\CleanArchMvc.Application.AssemblyInfo.cs
+D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.Application\obj\Debug\net6.0\CleanArchMvc.Application.csproj.CoreCompileInputs.cache
+D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.Application\obj\Debug\net6.0\CleanArchMvc.Application.csproj.CopyComplete
+D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.Application\obj\Debug\net6.0\CleanArchMvc.Application.dll
+D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.Application\obj\Debug\net6.0\refint\CleanArchMvc.Application.dll
+D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.Application\obj\Debug\net6.0\CleanArchMvc.Application.pdb
+D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.Application\obj\Debug\net6.0\ref\CleanArchMvc.Application.dll

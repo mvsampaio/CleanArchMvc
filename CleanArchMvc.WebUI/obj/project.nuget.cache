@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "i8/hHRipFpjV5Zcq0gmq4qugSfvAE5Wbr38mKE7M2Ae8ZSGXP+zCBy9WqUxDSvjiKNHq7JLSH+mnyARmCeJStw==",
+  "success": true,
+  "projectFilePath": "D:\\Marcus\\Cursos\\Udemy\\CleanArchitecture\\projects\\CleanArchMvc\\CleanArchMvc.WebUI\\CleanArchMvc.WebUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marcu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}
