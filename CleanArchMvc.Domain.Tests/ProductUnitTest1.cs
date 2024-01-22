@@ -52,11 +52,41 @@ namespace CleanArchMvc.Domain.Tests
         }
 
         [Fact]
+        public void CreateProduct_WithNullImageName_NoNullReferenceException()
+        {
+            Action action = () => new Product(1, "Product Name", "Product Description", 9.99m, 99, null);
+            action.Should().NotThrow<NullReferenceException>();
+        }
+
+        [Fact]
         public void CreateProduct_WithEmptyImageName_NoDomainException()
         {
             Action action = () => new Product(1, "Product Name", "Product Description", 9.99m, 99, "");
             action.Should().NotThrow<CleanArchMvc.Domain.Validation.DomainExceptionValidation>();
         }
+
+        [Fact]
+        public void CreateProduct_WithNullDescription_DomainExceptionNotNull()
+        {
+            Action action = () => new Product(1, "Product Name", null, 9.99m, 99, "Product image");
+            action.Should().Throw<CleanArchMvc.Domain.Validation.DomainExceptionValidation>()
+                .WithMessage("Invalid description. Description is required");
+        }
+
+        [Fact]
+        public void CreateProduct_WithNullDescription_NoNullReferenceException()
+        {
+            Action action = () => new Product(1, "Product Name", null, 9.99m, 99, "Product image");
+            action.Should().NotThrow<NullReferenceException>();
+        }              
+
+        [Fact]
+        public void CreateProduct_ShortDescriptionValue_DomainExceptionShortDescription()
+        {
+            Action action = () => new Product(1, "Product Name", "Desc", 9.99m, 99, "Product image");
+            action.Should().Throw<CleanArchMvc.Domain.Validation.DomainExceptionValidation>()
+                .WithMessage("Invalid description, too short, minimum 5 characters");
+        }        
 
         [Fact]
         public void CreateProduct_InvalidPriceValue_DomainException()
