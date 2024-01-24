@@ -1,3 +1,7 @@
+using CleanArchMvc.Infra.IoC;
+using Microsoft.Identity.Client;
+using System.Reflection.Metadata.Ecma335;
+
 namespace CleanArchMvc.WebUI
 {
     public class Program
@@ -8,6 +12,7 @@ namespace CleanArchMvc.WebUI
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddInfraStructure(builder.Configuration);
 
             var app = builder.Build();
 
@@ -17,7 +22,7 @@ namespace CleanArchMvc.WebUI
                 app.UseExceptionHandler("/Home/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
-            }
+            }            
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
