@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "41bOC1HwqwK11b7G/rUu0gXUHA2G6gwwfRmBnmXranaX2FeQ03CsJgz0N7n31Y7bcbdKnRpID2PrUaYrJZZiVg==",
+  "dgSpecHash": "Q0ysAZuTMzr8zkB+O4CMLpGhprEwAjQtbJibTJUQ1KU8CfgXmX5AO0fjd10Hha082tMzL5FZZnKUK6Y3kbYs5g==",
   "success": true,
   "projectFilePath": "D:\\Marcus\\Cursos\\Udemy\\CleanArchitecture\\projects\\CleanArchMvc\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\marcu\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\marcu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
     "C:\\Users\\marcu\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
     "C:\\Users\\marcu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512"
