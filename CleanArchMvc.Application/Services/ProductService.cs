@@ -23,7 +23,6 @@ namespace CleanArchMvc.Application.Services
         {
             var productsEntity = await _productRepository.GetProductsAsync();
             return _mapper.Map<IEnumerable<ProductDTO>>(productsEntity);
-
         }
 
         public async Task<ProductDTO> GetById(int? id)
@@ -36,7 +35,6 @@ namespace CleanArchMvc.Application.Services
         {
             var productEntity = await _productRepository.GetProductCategoryAsync(id);
             return _mapper.Map<ProductDTO>(productEntity);
-
         }
 
         public async Task Add(ProductDTO productDTO)

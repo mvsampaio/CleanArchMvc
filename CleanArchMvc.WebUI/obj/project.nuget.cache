@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ZOJiMnc1Z3G6IwtoHTnW7arO2b3oL/uu23t86GtHjM9G/KT1HD/jhSIQgy5/42IbwvBk2np4UyP/uQtoD80lAg==",
+  "dgSpecHash": "dZkGBKvf40QpEEbBWh6uR/iSzfN+N31vPyiJ+VVVB+1j6cmSD3dgonD9QDKyAolxB5/zL9B8ycRMPAQcl4J7xw==",
   "success": true,
   "projectFilePath": "D:\\Marcus\\Cursos\\Udemy\\CleanArchitecture\\projects\\CleanArchMvc\\CleanArchMvc.WebUI\\CleanArchMvc.WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marcu\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\marcu\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\marcu\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\marcu\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
