@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SG26SdLtz7e37IzhfHQ5pk+EURFYkNNGjMfyjAzXbAyadzS26nHdIkO734q95ZfSN581CEWynfZfWvdQAbXnWQ==",
+  "dgSpecHash": "0E/vm7B4NSpZ2xo19LudNfXet22HKK4UYCeCchdAvZ3Yg1ZLic7dubSaR3cnUGL7ki3wzUdVOnnw+VM/ZHGZBw==",
   "success": true,
   "projectFilePath": "D:\\Marcus\\Cursos\\Udemy\\CleanArchitecture\\projects\\CleanArchMvc\\CleanArchMvc.WebUI\\CleanArchMvc.WebUI.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\marcu\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\marcu\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\marcu\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\marcu\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\marcu\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\marcu\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",
