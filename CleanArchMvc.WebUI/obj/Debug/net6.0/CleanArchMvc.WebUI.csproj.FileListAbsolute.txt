@@ -95,3 +95,6 @@ D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.WebU
 D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net6.0\AutoMapper.dll
 D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net6.0\MediatR.dll
+D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net6.0\MediatR.Contracts.dll
+D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
