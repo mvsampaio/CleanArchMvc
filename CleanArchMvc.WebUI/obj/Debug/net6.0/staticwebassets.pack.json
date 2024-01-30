@@ -13,6 +13,42 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Marcus\\Cursos\\Udemy\\CleanArchitecture\\projects\\CleanArchMvc\\CleanArchMvc.WebUI\\wwwroot\\images\\borracha1.jpg",
+      "PackagePath": "staticwebassets\\images\\borracha1.jpg"
+    },
+    {
+      "Id": "D:\\Marcus\\Cursos\\Udemy\\CleanArchitecture\\projects\\CleanArchMvc\\CleanArchMvc.WebUI\\wwwroot\\images\\caderno1.jpg",
+      "PackagePath": "staticwebassets\\images\\caderno1.jpg"
+    },
+    {
+      "Id": "D:\\Marcus\\Cursos\\Udemy\\CleanArchitecture\\projects\\CleanArchMvc\\CleanArchMvc.WebUI\\wwwroot\\images\\calculadora1.jpg",
+      "PackagePath": "staticwebassets\\images\\calculadora1.jpg"
+    },
+    {
+      "Id": "D:\\Marcus\\Cursos\\Udemy\\CleanArchitecture\\projects\\CleanArchMvc\\CleanArchMvc.WebUI\\wwwroot\\images\\cartilha1.jpg",
+      "PackagePath": "staticwebassets\\images\\cartilha1.jpg"
+    },
+    {
+      "Id": "D:\\Marcus\\Cursos\\Udemy\\CleanArchitecture\\projects\\CleanArchMvc\\CleanArchMvc.WebUI\\wwwroot\\images\\catalog.png",
+      "PackagePath": "staticwebassets\\images\\catalog.png"
+    },
+    {
+      "Id": "D:\\Marcus\\Cursos\\Udemy\\CleanArchitecture\\projects\\CleanArchMvc\\CleanArchMvc.WebUI\\wwwroot\\images\\catalogo1.png",
+      "PackagePath": "staticwebassets\\images\\catalogo1.png"
+    },
+    {
+      "Id": "D:\\Marcus\\Cursos\\Udemy\\CleanArchitecture\\projects\\CleanArchMvc\\CleanArchMvc.WebUI\\wwwroot\\images\\estojo1.jpg",
+      "PackagePath": "staticwebassets\\images\\estojo1.jpg"
+    },
+    {
+      "Id": "D:\\Marcus\\Cursos\\Udemy\\CleanArchitecture\\projects\\CleanArchMvc\\CleanArchMvc.WebUI\\wwwroot\\images\\noimage.jpg",
+      "PackagePath": "staticwebassets\\images\\noimage.jpg"
+    },
+    {
+      "Id": "D:\\Marcus\\Cursos\\Udemy\\CleanArchitecture\\projects\\CleanArchMvc\\CleanArchMvc.WebUI\\wwwroot\\images\\noimage.png",
+      "PackagePath": "staticwebassets\\images\\noimage.png"
+    },
+    {
       "Id": "D:\\Marcus\\Cursos\\Udemy\\CleanArchitecture\\projects\\CleanArchMvc\\CleanArchMvc.WebUI\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
