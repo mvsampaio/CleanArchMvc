@@ -38,6 +38,8 @@ namespace CleanArchMvc.Application.DTOs
         public string Image { get; set; }
 
         public int CategoryId { get; set; }
-        public Category Category { get; set; }
+
+        //[ValidateNever] - É preciso instalar o Microsoft.AspNetCore.Mvc.Core
+        public Category? Category { get; set; }
     }
 }
