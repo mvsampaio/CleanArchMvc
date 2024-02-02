@@ -98,3 +98,8 @@ D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.WebU
 D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net6.0\MediatR.dll
 D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net6.0\MediatR.Contracts.dll
 D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Marcus\Cursos\Udemy\CleanArchitecture\projects\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
