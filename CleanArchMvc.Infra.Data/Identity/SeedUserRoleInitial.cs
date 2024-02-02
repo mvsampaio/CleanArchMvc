@@ -8,7 +8,12 @@ namespace CleanArchMvc.Infra.Data.Identity
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
 
-        public SeedUserRoleInitial() { }
+        public SeedUserRoleInitial(UserManager<ApplicationUser> userManager,
+            RoleManager<IdentityRole> roleManager) 
+        {
+            _userManager = userManager;
+            _roleManager = roleManager;
+        }
 
         public void SeedUsers()
         {
@@ -57,7 +62,7 @@ namespace CleanArchMvc.Infra.Data.Identity
             {
                 IdentityRole role = new IdentityRole();
                 role.Name = "User";
-                role.NormalizedName = role.Name.ToUpper();
+                role.NormalizedName = "USER";
                 IdentityResult roleResult = _roleManager.CreateAsync(role).Result;
             }
 
@@ -65,7 +70,7 @@ namespace CleanArchMvc.Infra.Data.Identity
             {
                 IdentityRole role = new IdentityRole();
                 role.Name = "Admin";
-                role.NormalizedName = role.Name.ToUpper();
+                role.NormalizedName = "Admin";
                 IdentityResult roleResult = _roleManager.CreateAsync(role).Result;
             }
         }        

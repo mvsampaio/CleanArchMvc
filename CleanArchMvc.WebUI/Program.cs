@@ -1,6 +1,5 @@
+using CleanArchMvc.Domain.Account;
 using CleanArchMvc.Infra.IoC;
-using Microsoft.Identity.Client;
-using System.Reflection.Metadata.Ecma335;
 
 namespace CleanArchMvc.WebUI
 {
@@ -29,13 +28,24 @@ namespace CleanArchMvc.WebUI
 
             app.UseRouting();
 
+            using (var serviceScope = app.Services.CreateScope())
+            {
+                var services = serviceScope.ServiceProvider;
+
+                var seedUserRoleInitial = services.GetRequiredService<ISeedUserRoleInitial>();
+
+                seedUserRoleInitial.SeedRoles();
+                seedUserRoleInitial.SeedUsers();
+            }
+
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
-            app.Run();
+            app.Run();            
         }
     }
 }
