@@ -1,6 +1,5 @@
 ﻿using CleanArchMvc.Application.DTOs;
 using CleanArchMvc.Application.Interfaces;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CleanArchMvc.API.Controllers
@@ -16,6 +15,7 @@ namespace CleanArchMvc.API.Controllers
             _categoryService = categoryService;
         }
 
+        #region GET
         [HttpGet]
         public async Task<ActionResult<IEnumerable<CategoryDTO>>> Get()
         {
@@ -37,7 +37,9 @@ namespace CleanArchMvc.API.Controllers
             }
             return Ok(category);
         }
+        #endregion
 
+        #region POST
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] CategoryDTO categoryDTO)
         {
@@ -50,8 +52,10 @@ namespace CleanArchMvc.API.Controllers
 
             return new CreatedAtRouteResult("GetCategory", new {id = categoryDTO.Id}, categoryDTO);
         }
+        #endregion
 
-        [HttpPut("{id:int}")]
+        #region PUT
+        [HttpPut]
         public async Task<ActionResult> Put(int id, [FromBody] CategoryDTO categoryDTO)
         {
             if (categoryDTO == null)
@@ -68,6 +72,22 @@ namespace CleanArchMvc.API.Controllers
 
             return Ok(categoryDTO);
         }
+        #endregion
+
+        #region DELETE
+        [HttpDelete("{id:int}")]
+        public async Task<ActionResult<CategoryDTO>> Delete(int id)
+        {
+            var category = await _categoryService.GetById(id);
+            if (category == null)
+            {
+                return NotFound("Category not found");
+            }
+
+            await _categoryService.Remove(id);
+            return Ok(category);
+        }
+        #endregion
 
     }
 }
