@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace CleanArchMvc.Application.DTOs
 {
@@ -40,6 +41,7 @@ namespace CleanArchMvc.Application.DTOs
         public int CategoryId { get; set; }
 
         //[ValidateNever] - É preciso instalar o Microsoft.AspNetCore.Mvc.Core
+        [JsonIgnore] // Evitar referência cíclica na API
         public Category? Category { get; set; }
     }
 }
