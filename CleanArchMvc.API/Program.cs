@@ -9,7 +9,8 @@ namespace CleanArchMvc.API
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.            
-            builder.Services.AddInfraStructureAPI(builder.Configuration);
+            builder.Services.AddInfraStructureAPI(builder.Configuration);            
+            builder.Services.AddInfraStructureJWT(builder.Configuration);
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
