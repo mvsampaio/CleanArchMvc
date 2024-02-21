@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
+
 namespace CleanArchMvc.Infra.IoC
 {
     public static class DependencyInjectionJWT
@@ -34,6 +35,6 @@ namespace CleanArchMvc.Infra.IoC
                 };
             });
             return services;
-        }
+        }        
     }
 }
